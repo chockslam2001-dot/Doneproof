@@ -1151,7 +1151,6 @@ function QuickProofScreen({ task, onClose, onSave }) {
             <input
               type="file"
               accept="image/*"
-              multiple
               capture="environment"
               onChange={handlePhotoUpload}
               className="hidden"
